@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "E:/FPGA_Projekt/P4_Full_Adder_4_bit/FA_4bit_TF_isim_beh.exe" -prj "E:/FPGA_Projekt/P4_Full_Adder_4_bit/FA_4bit_TF_beh.prj" "work.FA_4bit_TF" "work.glbl" 

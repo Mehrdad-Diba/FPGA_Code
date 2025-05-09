@@ -1,0 +1,5 @@
+verilog isim_temp "HA_verilog.v"
+verilog isim_temp "FA_verilog.v"
+verilog isim_temp "FA_4bit_verilog.v"
+verilog isim_temp "FA_4bit_TF.v"
+verilog isim_temp "D:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"
