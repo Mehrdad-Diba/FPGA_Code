@@ -1,0 +1,4 @@
+vhdl work "E:\FPGA_Projekt\P6_divider\HA.vhd"
+vhdl work "E:\FPGA_Projekt\P6_divider\FA.vhd"
+vhdl work "E:\FPGA_Projekt\P6_divider\FA_4bit.vhd"
+vhdl work "E:\FPGA_Projekt\P6_divider\counter.vhd"

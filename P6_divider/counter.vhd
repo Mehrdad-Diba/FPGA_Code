@@ -30,12 +30,12 @@ use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VComponents.all;
 
-entity counter is
+entity divider is
     Port ( clk : in  STD_LOGIC;
-           q : out  STD_LOGIC_VECTOR (3 downto 0));
-end counter;
+           div : out  STD_LOGIC);
+end divider;
 
-architecture Behavioral of counter is
+architecture Behavioral of divider is
 
 component FA_4bit is
     Port ( a : in   STD_LOGIC_VECTOR (3 downto 0);
@@ -43,8 +43,10 @@ component FA_4bit is
            s : out  STD_LOGIC_VECTOR (3 downto 0);
            c : out  STD_LOGIC);
 end component;
+
 signal s1, s2 : STD_LOGIC_VECTOR(3 downto 0);
 signal rst : STD_LOGIC;
+signal s3, s4 : STD_LOGIC := '0';
 
 begin
 u1: FA_4bit port map(
@@ -100,6 +102,20 @@ port map (
 	D => s2(3)       -- Data input
 );
 
-q <= s1;
+
+s4 <= not s3;
+
+F5 : FDCE
+generic map (
+	INIT => '0') -- Initial value of register ('0' or '1')  
+port map (
+	Q => s3,      -- Data output
+	C => rst,      -- Clock input
+	CE => '1',    -- Clock enable input
+	CLR => '0',  -- Asynchronous clear input
+	D => s4       -- Data input
+);
+div <= s3;
+
 end Behavioral;
 

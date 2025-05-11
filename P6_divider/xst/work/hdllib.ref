@@ -1,0 +1,8 @@
+EN fa NULL E:/FPGA_Projekt/P6_divider/FA.vhd sub00/vhpl02 1746949029
+EN ha NULL E:/FPGA_Projekt/P6_divider/HA.vhd sub00/vhpl00 1746949027
+EN divider NULL E:/FPGA_Projekt/P6_divider/counter.vhd sub00/vhpl06 1746949033
+AR divider behavioral E:/FPGA_Projekt/P6_divider/counter.vhd sub00/vhpl07 1746949034
+AR ha behavioral E:/FPGA_Projekt/P6_divider/HA.vhd sub00/vhpl01 1746949028
+AR fa behavioral E:/FPGA_Projekt/P6_divider/FA.vhd sub00/vhpl03 1746949030
+EN fa_4bit NULL E:/FPGA_Projekt/P6_divider/FA_4bit.vhd sub00/vhpl04 1746949031
+AR fa_4bit behavioral E:/FPGA_Projekt/P6_divider/FA_4bit.vhd sub00/vhpl05 1746949032

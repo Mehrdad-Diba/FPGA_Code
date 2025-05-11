@@ -1,0 +1,20 @@
+V3 17
+FL E:/FPGA_Projekt/P6_divider/counter.vhd 2025/05/10.18:44:25 P.20131013
+EN work/divider 1746949033 FL E:/FPGA_Projekt/P6_divider/counter.vhd \
+      PB ieee/std_logic_1164 1381692176 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/divider/Behavioral 1746949034 \
+      FL E:/FPGA_Projekt/P6_divider/counter.vhd EN work/divider 1746949033 \
+      CP FA_4bit CP FDCE
+FL E:/FPGA_Projekt/P6_divider/FA.vhd 2025/05/04.20:19:09 P.20131013
+EN work/FA 1746949029 FL E:/FPGA_Projekt/P6_divider/FA.vhd PB ieee/std_logic_1164 1381692176
+AR work/FA/Behavioral 1746949030 \
+      FL E:/FPGA_Projekt/P6_divider/FA.vhd EN work/FA 1746949029 CP HA
+FL E:/FPGA_Projekt/P6_divider/FA_4bit.vhd 2025/05/04.23:11:57 P.20131013
+EN work/FA_4bit 1746949031 FL E:/FPGA_Projekt/P6_divider/FA_4bit.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/FA_4bit/Behavioral 1746949032 \
+      FL E:/FPGA_Projekt/P6_divider/FA_4bit.vhd EN work/FA_4bit 1746949031 CP FA
+FL E:/FPGA_Projekt/P6_divider/HA.vhd 2025/05/04.20:07:17 P.20131013
+EN work/HA 1746949027 FL E:/FPGA_Projekt/P6_divider/HA.vhd PB ieee/std_logic_1164 1381692176
+AR work/HA/Behavioral 1746949028 \
+      FL E:/FPGA_Projekt/P6_divider/HA.vhd EN work/HA 1746949027

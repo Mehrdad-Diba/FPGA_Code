@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "E:/FPGA_Projekt/P6_divider/divider_tb_isim_beh.exe" -prj "E:/FPGA_Projekt/P6_divider/divider_tb_beh.prj" "work.divider_tb" 

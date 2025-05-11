@@ -1,0 +1,4 @@
+work	"FA.vhd"
+work	"FA_parametric.vhd"
+work	"HA.vhd"
+work	"counter_parametric.vhd"

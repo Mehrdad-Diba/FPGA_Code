@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "E:/FPGA_Projekt/P9_Blink_led/blink_led_tb_isim_beh.exe" -prj "E:/FPGA_Projekt/P9_Blink_led/blink_led_tb_beh.prj" "work.blink_led_tb" 

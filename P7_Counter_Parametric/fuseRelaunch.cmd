@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "E:/FPGA_Projekt/P7_Counter_Parametric/counter_parametric_10bit_tb_isim_beh.exe" -prj "E:/FPGA_Projekt/P7_Counter_Parametric/counter_parametric_10bit_tb_beh.prj" "work.counter_parametric_10bit_tb" 

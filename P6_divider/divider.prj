@@ -1,0 +1,4 @@
+vhdl work "HA.vhd"
+vhdl work "FA.vhd"
+vhdl work "FA_4bit.vhd"
+vhdl work "counter.vhd"
