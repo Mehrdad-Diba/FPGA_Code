@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "E:/FPGA_Projekt/P12_Detector/Pulse_tb_isim_beh.exe" -prj "E:/FPGA_Projekt/P12_Detector/Pulse_tb_beh.prj" "work.Pulse_tb" 

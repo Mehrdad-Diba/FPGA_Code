@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "E:/FPGA_Projekt/P11_state_machine/led_state_tb_isim_beh.exe" -prj "E:/FPGA_Projekt/P11_state_machine/led_state_tb_beh.prj" "work.led_state_tb" 
